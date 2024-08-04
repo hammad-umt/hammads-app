@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hammads-app/static/css/main.e6c13ad2.css",
+    "main.js": "/hammads-app/static/js/main.7390e392.js",
+    "static/js/453.12a2f040.chunk.js": "/hammads-app/static/js/453.12a2f040.chunk.js",
+    "index.html": "/hammads-app/index.html",
+    "main.e6c13ad2.css.map": "/hammads-app/static/css/main.e6c13ad2.css.map",
+    "main.7390e392.js.map": "/hammads-app/static/js/main.7390e392.js.map",
+    "453.12a2f040.chunk.js.map": "/hammads-app/static/js/453.12a2f040.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7390e392.js"
+  ]
+}
