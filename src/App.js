@@ -68,8 +68,16 @@ function App() {
     <Alert alert={alert}/>
     <TextForm mode={mode} showAlert={showAlert}/> */}
    <Router>
+   <Navbar title='Hammads App' mode={mode} toggleMode={toggleMode} pinkMode={pinkMode}/>
+    <Alert alert={alert}/>
+    {/* <TextForm mode={mode} showAlert={showAlert}/> */}
     <Routes>
-          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/hammads-app" element={ 
+            <>
+            <TextForm mode={mode} showAlert={showAlert}/>
+            </>}>
+            </Route>
+          <Route exact path="/about" element={<About mode={mode} />}></Route>
           <Route exact path="/" element={ 
             <>
             <Navbar title='Hammads App' mode={mode} toggleMode={toggleMode} pinkMode={pinkMode}/>
@@ -79,8 +87,6 @@ function App() {
           </Route>
           <Route exact path="/Home" element={ 
             <>
-            <Navbar title='Hammads App' mode={mode} toggleMode={toggleMode} pinkMode={pinkMode}/>
-            <Alert alert={alert}/>
             <TextForm mode={mode} showAlert={showAlert}/>
             </>}>
           </Route>

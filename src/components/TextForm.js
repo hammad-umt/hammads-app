@@ -26,9 +26,9 @@ export default function TextForm(props) {
     <h1 >Enter Text Here To Analyze</h1>
   <label htmlFor="exampleFormControlTextarea1" className="form-label" ></label>
   <textarea className="form-control"value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="8" style={{backgroundColor:props.mode==='dark'?'grey':'white',color:props.mode==='light'?'black':'white'}}></textarea>
-  <button onClick={handleUpperClick} class="btn btn-primary">Convert to UpperCase</button>
-  <button onClick={handleLowerClick} class="btn btn-primary">Convert to LowerCase</button>
-  <button onClick={handleClear} class="btn btn-warning">Clear</button>
+  <button onClick={handleUpperClick} class="btn btn-primary mx-1 my-1">Convert to UpperCase</button>
+  <button onClick={handleLowerClick} class="btn btn-primary mx-1 my-1">Convert to LowerCase</button>
+  <button onClick={handleClear} class="btn btn-warning mx-1 my-1">Clear</button>
      <h2>
         Summary
     </h2>
